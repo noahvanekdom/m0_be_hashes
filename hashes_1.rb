@@ -6,29 +6,29 @@
 # file by entering the following command in your Terminal:
 # `ruby hashes_1.rb`
 
-foods = {"apples" => 23, "grapes" => 507, "eggs" => 48}
-
-# Write code that prints all of the 'keys' of the foods variable
-# you created above:
-p foods.keys
-
-
-# Write code that prints all of the 'values' of the foods variable
-# you created above:
-p foods.values
-
-# Write code that prints the value of the second food of the foods variable
-# you created above:
-
-p foods["grapes"]
-
-# Write code that adds a food to the foods hash.
-# Then, print the updated hash:
-
-foods["avocados"] = 209
-
-p foods
-
+# foods = {"apples" => 23, "grapes" => 507, "eggs" => 48}
+#
+# # Write code that prints all of the 'keys' of the foods variable
+# # you created above:
+# p foods.keys
+#
+#
+# # Write code that prints all of the 'values' of the foods variable
+# # you created above:
+# p foods.values
+#
+# # Write code that prints the value of the second food of the foods variable
+# # you created above:
+#
+# p foods["grapes"]
+#
+# # Write code that adds a food to the foods hash.
+# # Then, print the updated hash:
+#
+# foods["avocados"] = 209
+#
+# p foods
+#
 
 #-------------------
 # Part 2: Email
@@ -53,11 +53,11 @@ p email
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-# YOUR CODE HERE
+p email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-# YOUR CODE HERE
+p email.values
 
 
 #-------------------
@@ -108,3 +108,27 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+emails = [
+  {          "sender" => "Nikola Jokic",
+               "date" => "7/4/22",
+            "is_read" => false,
+     "has_attachment" => true,
+          "file_size" => 226209
+        },
+        {
+          "sender" => "Rafael Nadal",
+          "date" => "7/5/22",
+          "is_read" => true,
+          "has_attachment" => false,
+          "file_size" => 10923
+        },
+        {
+          "sender" => "Matt Dutko",
+          "date" => "10/9/1999",
+          "is_read" => true,
+          "has attachment" => true,
+          "file_size" => 340099
+         }
+]
+
+p emails
